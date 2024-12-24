@@ -1,1 +1,183 @@
-my-hobbies-and-favorite-activities.com
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A personal web page showcasing my hobbies and favorite activities.">
+    <title>My Unique Web Page</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        /* Main Content Styles */
+        main {
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        /* Section Styles */
+        section {
+            margin-bottom: 30px;
+        }
+
+        section h2 {
+            font-size: 2em;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        section p {
+            font-size: 1.1em;
+            color: #7f8c8d;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+
+        /* Image Gallery Styles */
+        .image-gallery {
+            display: flex;
+            gap: 20px;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        figure {
+            flex: 1 1 calc(33% - 20px);
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+        }
+
+        figure img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        figcaption {
+            background-color: #f8f8f8;
+            padding: 10px;
+            font-size: 1.1em;
+            color: #34495e;
+        }
+
+        /* External Resource Styles */
+        .external-resource a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .external-resource a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Welcome to My Web Page</h1>
+            <p>Explore my hobbies and favorite activities.</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="hobbies">
+            <h2>My Favorite Hobbies</h2>
+            <p>I enjoy a variety of hobbies. Here are a few of my favorites:</p>
+            <ul>
+                <li>Photography</li>
+                <li>Traveling</li>
+                <li>Reading Books</li>
+            </ul>
+        </section>
+
+        <section class="images">
+            <h2>Images of My Hobbies</h2>
+            <p>Here are some images related to my hobbies:</p>
+            <div class="image-gallery">
+                <!-- Updated image URLs -->
+                <figure>
+                    <img src="https://d1hjkbq40fs2x4.cloudfront.net/2017-02-10/files/Canon_beginner_photography_gear-min.jpg" alt="A camera and photography equipment">
+                    <figcaption>Photography gear I use.</figcaption>
+                </figure>
+                <figure>
+                    <img src="https://cf.bstatic.com/xdata/images/hotel/max1280x900/349250282.jpg?k=98e319a32a3afd35d51a1dcd0cde70feefde18d6a4717aced9758e956a7ab8c9&o=&hp=1" alt="A beautiful mountain view from my travels">
+                    <figcaption>A stunning mountain view from one of my trips.</figcaption>
+                </figure>
+                <figure>
+                    <img src="https://sg-live-01.slatic.net/p/bfdff81ff1f2170e3de313e962a5fe95.jpg" alt="A stack of books on a table">
+                    <figcaption>Books I’ve enjoyed reading.</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="external-resource">
+            <h2>External Resource</h2>
+            <p>For more information on photography, check out 
+                <a href="https://www.photography.com" target="_blank" rel="noopener noreferrer">Photography.com</a>.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created by Mohamed Ihsaan.</p>
+    </footer>
+
+</body>
+</html>
